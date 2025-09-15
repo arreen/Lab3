@@ -1,12 +1,12 @@
 #' Title
 #'
-#' @param a
-#' @param b
+#' @param a aasdfasd
+#' @param b asdfasdf
 #'
-#' @returns
+#' @returns asdfas
 #' @export
 #'
-#' @examples
+#' @examples print("hi")
 #'
 #'
 euclidean <- function(a, b){

@@ -7,8 +7,18 @@
 euclidean(a, b)
 }
 \arguments{
-\item{b}{}
+\item{a}{aasdfasd}
+
+\item{b}{asdfasdf}
+}
+\value{
+asdfas
 }
 \description{
 Title
+}
+\examples{
+print("hi")
+
+
 }

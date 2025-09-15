@@ -11,7 +11,7 @@ Authors@R: c(
     person(
       "Aron", "Enström",
       email = "aroen488@student.liu.com",
-      role = c("aut", "cre")
+      role = c("aut")
     )
   )
 Description: This repository contains all the solutions to lab3 in the course 732A94 Advanced R programming

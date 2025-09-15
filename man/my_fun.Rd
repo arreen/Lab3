@@ -18,5 +18,6 @@ The sum of `x` and `y`
 Add together two numbers
 }
 \examples{
-add(1, 1)
+print("hi")
+
 }

@@ -4,8 +4,8 @@
 #' @param y A number.
 #' @returns The sum of `x` and `y`
 #' @export
-#' @examples
-#' add(1, 1)
+#' @examples print("hi")
+#'
 
 
 my_fun <- function(){
