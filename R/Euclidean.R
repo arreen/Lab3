@@ -1,3 +1,14 @@
+#' Title
+#'
+#' @param a
+#' @param b
+#'
+#' @returns
+#' @export
+#'
+#' @examples
+#'
+#'
 euclidean <- function(a, b){
   if(a){stop("Not a numeric value")} # Error message for a
   if(b){stop("Not a numeric value ")} # Error message for b
