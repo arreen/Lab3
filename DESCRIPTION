@@ -1,0 +1,20 @@
+Package: Lab3PonOlAroEn
+Type: Package
+Title: Assignment For Lab3
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Pontus", "Olsson",
+      email = "ponol900@student.liu.com",
+      role = c("aut", "cre")
+    ),
+    person(
+      "Aron", "Enström",
+      email = "aroen488@student.liu.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: This repository contains all the solutions to lab3 in the course 732A94 Advanced R programming
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
