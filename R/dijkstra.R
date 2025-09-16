@@ -1,10 +1,11 @@
 #' Add together two numbers
 #'
-#' @param x A number.
-#' @param y A number.
-#' @returns The sum of `x` and `y`
+#' @param graph A data.frame for ...
+#' @param init_node The init_node node is
+#' @returns Returns a vector with every shortest path from
 #' @export
-#' @examples print("hi")
+#' @examples dijkstra(wiki_graph, 1) ## c(0, 7, 9, 20, 20, 11)
+#' @source https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 #'
 
 
@@ -13,8 +14,9 @@ dijkstra <- function(graph, init_node){
   if( !all(colnames(graph) %in% c("v1", "v2", "w")) ){stop("Erroneuos graph, it should have 3 columns, the first 2 with the node names, 3rd has the weights of the edges")}
   if( !all(sapply(graph, is.numeric)) ){stop("The weights in the graph are not numeric")}
   if( !(is.numeric(init_node) && length(init_node) == 1) ){stop("The initial node is not a numeric")}
-
   vertices <- unique(c(graph$v1, graph$v2))
+  if(!(init_node %in% vertices)){stop("innit_node is outside graph dataframe")}
+
 
   distance <- rep(Inf, length(vertices))
 
