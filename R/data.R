@@ -1,6 +1,5 @@
 #' @title Wiki_graph
-#' @description
-#' The weighted graph from the dijkstra wikipedia page.
+#' @description The weighted graph from the dijkstra wikipedia page.
 #'
 #' @format A data frame with 3 columns, v1, v2 and w.
 #' \describe{

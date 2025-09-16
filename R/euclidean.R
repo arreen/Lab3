@@ -1,4 +1,7 @@
+#' @title
 #' Euclidean Algorithm
+#' @description A short description...
+#'
 #' The Euclidean algorithm finds the greatest common divisor, GCD between to whole numbers, a and b.
 #'
 #' @param a a whole number of length 1
@@ -8,8 +11,8 @@
 #' @export
 #'
 #' @examples
-#' euclidian(123612, 13892347912)
-#' euclidian(100, 1000)
+#' euclidean(123612, 13892347912)
+#' euclidean(100, 1000)
 #'
 #' @source https://en.wikipedia.org/wiki/Euclidean_algorithm
 #'

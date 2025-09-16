@@ -2,22 +2,24 @@
 % Please edit documentation in R/dijkstra.R
 \name{dijkstra}
 \alias{dijkstra}
-\title{Add together two numbers}
+\title{Dijkstra}
+\source{
+https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+}
 \usage{
 dijkstra(graph, init_node)
 }
 \arguments{
-\item{x}{A number.}
+\item{graph}{A data.frame for ...}
 
-\item{y}{A number.}
+\item{init_node}{The init_node node is}
 }
 \value{
-The sum of `x` and `y`
+Returns a vector with every shortest path from
 }
 \description{
-Add together two numbers
+Sample text
 }
 \examples{
-print("hi")
-
+dijkstra(wiki_graph, 1) ## c(0, 7, 9, 20, 20, 11)
 }

@@ -1,4 +1,5 @@
-#' Add together two numbers
+#' @title Dijkstra
+#' @description Sample text
 #'
 #' @param graph A data.frame for ...
 #' @param init_node The init_node node is
