@@ -2,23 +2,28 @@
 % Please edit documentation in R/Euclidean.R
 \name{euclidean}
 \alias{euclidean}
-\title{Title}
+\title{Euclidean Algorithm
+The Euclidean algorithm finds the greatest common divisor, GCD between to whole numbers, a and b.}
+\source{
+https://en.wikipedia.org/wiki/Euclidean_algorithm
+}
 \usage{
 euclidean(a, b)
 }
 \arguments{
-\item{a}{aasdfasd}
+\item{a}{a whole number of length 1}
 
-\item{b}{asdfasdf}
+\item{b}{a whole number of length 1}
 }
 \value{
-asdfas
+The GCD
 }
 \description{
-Title
+Euclidean Algorithm
+The Euclidean algorithm finds the greatest common divisor, GCD between to whole numbers, a and b.
 }
 \examples{
-print("hi")
-
+euclidian(123612, 13892347912)
+euclidian(100, 1000)
 
 }

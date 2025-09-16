@@ -3,21 +3,21 @@
 \docType{data}
 \name{wiki_graph}
 \alias{wiki_graph}
-\title{title}
+\title{Wiki_graph}
 \format{
-A data frame
+A data frame with 3 columns, v1, v2 and w.
 \describe{
-text
+Each row of the dataframe represents and arc in the graph. From v1 to v2 and its corresponding weight w.
 
 }
 }
 \source{
-wikipedia.com
+https://en.wikipedia.org/wiki/Dijkstra's_algorithm
 }
 \usage{
 wiki_graph
 }
 \description{
-title
+The weighted graph from the dijkstra wikipedia page.
 }
 \keyword{datasets}
