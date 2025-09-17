@@ -14,7 +14,7 @@
 #' euclidean(123612, 13892347912)
 #' euclidean(100, 1000)
 #'
-#' @source https://en.wikipedia.org/wiki/Euclidean_algorithm
+#' @source Euclidean algorithm. (September, 2025). In Wikipedia. Retrieved from https://en.wikipedia.org/w/index.php?title=Euclidean_algorithm&oldid=1304987228
 #'
 euclidean <- function(a, b){
   if( !is.numeric(a) | !is.numeric(b) ){stop("Only input numeric values")}

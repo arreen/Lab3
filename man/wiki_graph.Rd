@@ -12,12 +12,12 @@ Each row of the dataframe represents and arc in the graph. From v1 to v2 and its
 }
 }
 \source{
-https://en.wikipedia.org/wiki/Dijkstra's_algorithm
+Dijkstra’s algorithm. (September, 2025). In Wikipedia. Retrieved from https://en.wikipedia.org/w/index.php?title=Dijkstra%27s_algorithm&oldid=1306611316
 }
 \usage{
 wiki_graph
 }
 \description{
-The weighted graph from the dijkstra wikipedia page.
+The weighted graph from the example on the Dijkstra Wikipedia article.
 }
 \keyword{datasets}

@@ -4,7 +4,7 @@
 \alias{euclidean}
 \title{Euclidean Algorithm}
 \source{
-https://en.wikipedia.org/wiki/Euclidean_algorithm
+Euclidean algorithm. (September, 2025). In Wikipedia. Retrieved from https://en.wikipedia.org/w/index.php?title=Euclidean_algorithm&oldid=1304987228
 }
 \usage{
 euclidean(a, b)

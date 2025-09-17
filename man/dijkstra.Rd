@@ -2,24 +2,27 @@
 % Please edit documentation in R/dijkstra.R
 \name{dijkstra}
 \alias{dijkstra}
-\title{Dijkstra}
+\title{Dijkstra Algorithm}
 \source{
-https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+Dijkstra’s algorithm. (September, 2025). In Wikipedia. Retrieved from https://en.wikipedia.org/w/index.php?title=Dijkstra%27s_algorithm&oldid=1306611316
 }
 \usage{
 dijkstra(graph, init_node)
 }
 \arguments{
-\item{graph}{A data.frame for ...}
+\item{graph}{A data.frame for that describes a weighted graph, a set where objects are connected to each other by a path. Each path has a distance or weight.
+The data.frame must and can only contain the variables v1, v2 and w. v1 and v2 describes that there is a path between each other, while w describes the weights or distance on the specified path.}
 
-\item{init_node}{The init_node node is}
+\item{init_node}{The init_node describes the destination each node must go to. init_node must be a numeric scalar.}
 }
 \value{
-Returns a vector with every shortest path from
+Returns a vector with the shortest path from each node.
 }
 \description{
-Sample text
+This function is a R implementation of the Dijkstra algorithm. The algorithm calculates the shortest path between a fixed node with every other node.
+It does this by updating available paths, picking the nearest and unexplored nodes and updating the path distances. This goes on until all nodes are connected with the shortest path.
 }
 \examples{
 dijkstra(wiki_graph, 1) ## c(0, 7, 9, 20, 20, 11)
+dijkstra(wiki_graph, 3) ## c(9, 10, 0, 11, 11, 2)
 }
