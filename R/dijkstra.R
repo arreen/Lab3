@@ -10,9 +10,9 @@
 #' @export
 #' @examples
 #' dijkstra(wiki_graph, 1)
-#' ## c(0, 7, 9, 20, 20, 11)
+#'
 #' dijkstra(wiki_graph, 3)
-#' ## c(9, 10, 0, 11, 11, 2)
+#'
 #'
 #' @source Dijkstra's algorithm. (September, 2025). Retrieved from \href{https://en.wikipedia.org/w/index.php?title=Dijkstra\%27s_algorithm&oldid=1306611316}{Wikipedia}.
 

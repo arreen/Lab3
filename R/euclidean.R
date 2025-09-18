@@ -10,9 +10,9 @@
 #'
 #' @examples
 #' euclidean(123612, 13892347912)
-#' ## 4
+#'
 #' euclidean(100, 1000)
-#' ## 10
+#'
 #'
 #' @source Euclidean algorithm. (September, 2025). Retrieved from \href{https://en.wikipedia.org/w/index.php?title=Euclidean_algorithm&oldid=1304987228}{Wikipedia}.
 #'
