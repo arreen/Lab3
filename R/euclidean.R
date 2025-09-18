@@ -1,20 +1,20 @@
 #' @title
-#' Euclidean Algorithm
-#' @description A short description...
-#'
-#' The Euclidean algorithm finds the greatest common divisor, GCD between to whole numbers, a and b.
+#' euclidean
+#' @description euclidian() uses the euclidean algorithm to find the greatest common divisor, GCD between to whole numbers, a and b.
 #'
 #' @param a a whole number of length 1
 #' @param b a whole number of length 1
 #'
-#' @returns The GCD
+#' @returns The GCD.
 #' @export
 #'
 #' @examples
 #' euclidean(123612, 13892347912)
+#' ## 4
 #' euclidean(100, 1000)
+#' ## 10
 #'
-#' @source Euclidean algorithm. (September, 2025). In Wikipedia. Retrieved from https://en.wikipedia.org/w/index.php?title=Euclidean_algorithm&oldid=1304987228
+#' @source Euclidean algorithm. (September, 2025). Retrieved from \href{https://en.wikipedia.org/w/index.php?title=Euclidean_algorithm&oldid=1304987228}{Wikipedia}.
 #'
 euclidean <- function(a, b){
   if( !is.numeric(a) | !is.numeric(b) ){stop("Only input numeric values")}

@@ -2,27 +2,30 @@
 % Please edit documentation in R/dijkstra.R
 \name{dijkstra}
 \alias{dijkstra}
-\title{Dijkstra Algorithm}
+\title{dijkstra}
 \source{
-Dijkstra’s algorithm. (September, 2025). In Wikipedia. Retrieved from https://en.wikipedia.org/w/index.php?title=Dijkstra%27s_algorithm&oldid=1306611316
+Dijkstra's algorithm. (September, 2025). Retrieved from \href{https://en.wikipedia.org/w/index.php?title=Dijkstra\%27s_algorithm&oldid=1306611316}{Wikipedia}.
 }
 \usage{
 dijkstra(graph, init_node)
 }
 \arguments{
-\item{graph}{A data.frame for that describes a weighted graph, a set where objects are connected to each other by a path. Each path has a distance or weight.
-The data.frame must and can only contain the variables v1, v2 and w. v1 and v2 describes that there is a path between each other, while w describes the weights or distance on the specified path.}
+\item{graph}{A data.frame that describes a weighted graph, a set where objects are connected to eachother by arcs. Each arc has a distance or weight.
+The data.frame must and can only contain the variables v1, v2 and w. v1 and v2 describes that there is an arc from v1 to v2, while w describes the weights or distance on each arc.}
 
-\item{init_node}{The init_node describes the destination each node must go to. init_node must be a numeric scalar.}
+\item{init_node}{The init_node describes the destination each path must end in. init_node must be a numeric scalar.}
 }
 \value{
-Returns a vector with the shortest path from each node.
+Returns a vector with the shortest path to each node from init_node.
 }
 \description{
-This function is a R implementation of the Dijkstra algorithm. The algorithm calculates the shortest path between a fixed node with every other node.
+This function is an R implementation of the Dijkstra's algorithm. The algorithm calculates the shortest path between a fixed node to every other node in a weighted graph.
 It does this by updating available paths, picking the nearest and unexplored nodes and updating the path distances. This goes on until all nodes are connected with the shortest path.
 }
 \examples{
-dijkstra(wiki_graph, 1) ## c(0, 7, 9, 20, 20, 11)
-dijkstra(wiki_graph, 3) ## c(9, 10, 0, 11, 11, 2)
+dijkstra(wiki_graph, 1)
+## c(0, 7, 9, 20, 20, 11)
+dijkstra(wiki_graph, 3)
+## c(9, 10, 0, 11, 11, 2)
+
 }

@@ -14,8 +14,7 @@ Authors@R: c(
       role = c("aut")
     )
   )
-Description: This repository contains all the solutions to lab3 in the course.
-    732A94 Advanced R programming. It has the functions euclidean() and dijkstra().
+Description: This repository contains all the solutions to lab3 in the course 732A94 Advanced R programming. It has the functions euclidean() and dijkstra(). It also contains an example weighted graph, "wiki_graph"
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

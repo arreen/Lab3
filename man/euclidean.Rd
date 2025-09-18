@@ -2,9 +2,9 @@
 % Please edit documentation in R/euclidean.R
 \name{euclidean}
 \alias{euclidean}
-\title{Euclidean Algorithm}
+\title{euclidean}
 \source{
-Euclidean algorithm. (September, 2025). In Wikipedia. Retrieved from https://en.wikipedia.org/w/index.php?title=Euclidean_algorithm&oldid=1304987228
+Euclidean algorithm. (September, 2025). Retrieved from \href{https://en.wikipedia.org/w/index.php?title=Euclidean_algorithm&oldid=1304987228}{Wikipedia}.
 }
 \usage{
 euclidean(a, b)
@@ -15,15 +15,15 @@ euclidean(a, b)
 \item{b}{a whole number of length 1}
 }
 \value{
-The GCD
+The GCD.
 }
 \description{
-A short description...
-
-The Euclidean algorithm finds the greatest common divisor, GCD between to whole numbers, a and b.
+euclidian() uses the euclidean algorithm to find the greatest common divisor, GCD between to whole numbers, a and b.
 }
 \examples{
 euclidean(123612, 13892347912)
+## 4
 euclidean(100, 1000)
+## 10
 
 }
