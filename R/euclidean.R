@@ -22,6 +22,7 @@ euclidean <- function(a, b){
   if( length(b) != 1 ){stop("b has a length greater than 1")}
   if( (a %% 1 > 0) ){stop("a is not an integer")}
   if( (b %% 1 > 0) ){stop("b is not an integer")}
+  if(b == 0){stop("b can't be 0 since %% 0 is error")}
 
 
 

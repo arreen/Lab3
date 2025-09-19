@@ -23,7 +23,7 @@ dijkstra <- function(graph, init_node){
   if( !all(sapply(graph, is.numeric)) ){stop("The weights in the graph are not numeric")}
   if( !(is.numeric(init_node) && length(init_node) == 1) ){stop("The initial node is not a numeric")}
   vertices <- unique(c(graph$v1, graph$v2))
-  if(!(init_node %in% vertices)){stop("innit_node is outside graph dataframe")}
+  if(!(init_node %in% vertices)){stop("init_node is outside graph dataframe")}
 
   distance <- rep(Inf, length(vertices))
   distance[match(init_node, vertices)] <- 0
